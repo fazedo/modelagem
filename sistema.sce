@@ -1,4 +1,5 @@
-//Codigo para sistemas
+//Código para sistemas
+
 function z=c_inicial_1(x)
     z=0.1//u
 endfunction
