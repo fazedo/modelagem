@@ -1,7 +1,7 @@
 //Código para sistemas
 
 function z=c_inicial_1(x)
-    z=0.1//u
+    z=1//u
 endfunction
 
 function z=forcante_1(x,t)
