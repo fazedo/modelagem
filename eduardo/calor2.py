@@ -44,7 +44,7 @@ def calor(x_end, t_end, N_x, N_t):
         D[0] = 0.0
         D[-1] = 1.0
 
-        u = numpy.linalg.solve(AA, D)
+        #u = numpy.linalg.solve(AA, D)
         u = scipy.linalg.lu_solve(AAA, D)
 
         #if i%50 == 0:
